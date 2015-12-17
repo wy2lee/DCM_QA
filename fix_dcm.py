@@ -47,7 +47,7 @@ def run_cmd(sys_cmd, debug, verbose):
 def load_dcm_list(fname_dcm_list, lut_dcm_hdrs):
 #   Loads list of dicom headers to change, and their new value
     if not os.path.exists(fname_dcm_list):
-        raise SystemExit, 'ERROR - Parameter File - File not found: %s' % (fname_subj_list,) 
+        raise SystemExit, 'ERROR - Parameter File - File not found: %s' % (fname_dcm_list,) 
         
     file_dcm_list = open(fname_dcm_list,'r')
     for line_dcm in file_dcm_list:

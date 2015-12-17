@@ -6,6 +6,7 @@
 0010,1020 - PatientSize > Change to set value - 0
 0010,1030 - PatientWeight > Change to set value - 0
 0010,2154 - PatientTelephoneNumbers > Change to set value - 5555555555
+0008,103e - SeriesDescription > Change to Scan Type name
 
     Leave the following
 0008,0012 - InstanceCreationDate
